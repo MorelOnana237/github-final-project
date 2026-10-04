@@ -1,23 +1,26 @@
-# Contribuer au projet
-
 Toutes les contributions, rapports de bogues, corrections de bogues, améliorations de la documentation, améliorations et idées sont les bienvenues.
 
-## Signaler un bogue
+# Contribuer au projet
 
+## Signaler un bogue
 Ouvrez une issue en décrivant le problème, les étapes pour le reproduire et le résultat attendu.
 
-## Corriger un bogue ou améliorer le projet
-
+## Proposer une correction ou une amélioration
 1. Faites un fork du dépôt.
-2. Créez une branche pour votre modification (`git checkout -b ma-modification`).
-3. Faites vos changements et validez-les avec un message clair.
-4. Envoyez votre branche (`git push origin ma-modification`).
-5. Ouvrez une Pull Request en décrivant votre modification.
+2. Créez une branche : `git checkout -b ma-modification`
+3. Validez vos changements : `git commit -m "Fix: corrige le calcul de l'intérêt"`
+4. Envoyez la branche : `git push origin ma-modification`
+5. Ouvrez une pull request.
 
-## Améliorer la documentation
+## Exemples de messages de validation
+- `Add: ajoute la validation des saisies`
+- `Fix: corrige une faute dans le README`
+- `Docs: améliore la documentation`
 
-Les corrections et ajouts dans le README ou dans les autres fichiers de documentation sont les bienvenus.
+## Conseils pour les pull requests
+- Décrivez clairement ce que change votre pull request.
+- Gardez-la courte et centrée sur un seul sujet.
+- Mentionnez l'issue concernée si elle existe.
 
 ## Proposer une idée
-
-Ouvrez une issue pour en discuter avant de commencer le développement.
+Ouvrez une issue pour en discuter avant de commencer.
